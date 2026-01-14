@@ -1,0 +1,43 @@
+# -----------------------------
+# Personal / private data
+# -----------------------------
+NetflixViewingHistory.csv
+*ViewingHistory*.csv
+*ViewingActivity*.csv
+# netflix*.csv
+# *netflix*.csv
+
+# Any exports / logs / local outputs
+*.xlsx
+*.xls
+*.json
+*.html
+exports/
+data/
+private/
+output/
+out/
+
+# Generated Letterboxd files 
+*prelist_review*.csv
+*discarded_tv*.csv
+*letterboxd_import*.csv
+
+# -----------------------------
+# Python junk
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+.env
+
+
+.DS_Store
+
+TO_DO.txt
